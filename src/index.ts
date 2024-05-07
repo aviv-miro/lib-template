@@ -1,5 +1,8 @@
 import { init } from "./init";
 
+/** Please feel free to change this file as you see fit. */
+/** these are only examples */
+
 function helloWorld() {
   console.log("HELLO WORLD!");
   console.log("This is the library name: ");

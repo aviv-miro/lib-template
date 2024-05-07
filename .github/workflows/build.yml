@@ -55,9 +55,6 @@ jobs:
           git checkout gh-pages || git checkout -b gh-pages
           git reset --hard origin/main
 
-      - name: Remove existing temporary directory
-        run: rm -rf temp_dist
-
       - name: Build for production
         run: |
           mkdir -p temp_dist/${{ env.version }}
